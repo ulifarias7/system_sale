@@ -1,0 +1,17 @@
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemStokeo.DTO.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\refint\SistemStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\ref\SistemStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.MODELS.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DAL.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.MODELS.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemStokeo.DTO.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemSt.70E48A21.Up2Date

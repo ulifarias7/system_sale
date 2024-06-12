@@ -1,0 +1,15 @@
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.DAL.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.DAL.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\refint\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\ref\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.MODELS.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.MODELS.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaS.3224392B.Up2Date

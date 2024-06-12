@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaStokeo.DAL\SistemaStokeo.DAL.csproj" />
+    <ProjectReference Include="..\SistemaStokeo.MODELS\SistemaStokeo.MODELS.csproj" />
+    <ProjectReference Include="..\SistemaStokeo.UTILITYS\SistemaStokeo.UTILITYS.csproj" />
+    <ProjectReference Include="..\SistemStokeo.DTO\SistemaStokeo.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

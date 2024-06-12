@@ -1,0 +1,17 @@
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DTO.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DAL.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.MODELS.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.DAL.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\bin\Debug\net7.0\SistemaStokeo.MODELS.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaS.3E0F390C.Up2Date
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\refint\SistemaStokeo.DTO.dll
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\SistemaStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemStokeo.DTO\obj\Debug\net7.0\ref\SistemaStokeo.DTO.dll
