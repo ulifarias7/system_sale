@@ -17,3 +17,4 @@ C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.UTILITYS\obj
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.UTILITYS\obj\Debug\net7.0\SistemaS.76A4E7A8.Up2Date
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.UTILITYS\bin\Debug\net7.0\SistemaStokeo.DTO.dll
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.UTILITYS\bin\Debug\net7.0\SistemaStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.UTILITYS\obj\Debug\net7.0\SistemaStokeo.UTILITYS.sourcelink.json

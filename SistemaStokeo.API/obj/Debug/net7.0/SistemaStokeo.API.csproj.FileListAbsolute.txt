@@ -82,3 +82,4 @@ C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debu
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\SistemaStokeo.DTO.dll
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\SistemaStokeo.DTO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.API\obj\Debug\net7.0\SistemaStokeo.API.sourcelink.json

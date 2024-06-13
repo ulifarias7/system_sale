@@ -11,6 +11,8 @@ using SistemaStokeo.DAL.Repositorios.Contratos;
 using SistemaStokeo.DAL.Repositorios;
 using SistemaStokeo.UTILITYS;
 using AutoMapper;
+using SistemaStokeo.BLL.Servicios.Contrato;
+using SistemaStokeo.BLL.Servicios;
 
 namespace SistemaStokeo.IOC
 {
@@ -31,8 +33,13 @@ namespace SistemaStokeo.IOC
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
 
-
-
+            services.AddScoped<IRolServices,RolServices>();
+            services.AddScoped<ICategoriaServices,CategoriaServices>();
+            services.AddScoped<IUsuarioServices,Usuarioservices>();
+            services.AddScoped<IProductoServices,ProductoServices >();
+            services.AddScoped<IVentaservices,Ventaservices>();
+            services.AddScoped<IDashBoardservices,DashBoardServices >();
+            services.AddScoped<IMenuServices,MenuServices>();
 
 
         }

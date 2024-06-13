@@ -13,6 +13,7 @@ namespace SistemStokeo.DTO
 
         public string? TotalIngresos { get; set; }
 
+        public int TotalProductos { get; set; }
         public List<VentasSemanaDto> VentasUltimaSemana { get; set; }  
 
 

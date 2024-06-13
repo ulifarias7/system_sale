@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d1b725520dc8875d9a91cf2d855f61079b91783")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
