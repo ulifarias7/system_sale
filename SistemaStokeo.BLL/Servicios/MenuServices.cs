@@ -28,12 +28,12 @@ namespace SistemaStokeo.BLL.Servicios
 
         public async Task<List<MenuDto>> Lista(int IdUsuario)
         {
-          IQueryable<Usuario>usuario = await _UsuarioRepository.Consultar(u=>u.IdUsuario== IdUsuario);
+          IQueryable<Usuario> usuario = await _UsuarioRepository.Consultar(u=>u.IdUsuario== IdUsuario);
           IQueryable<MenuRol> Menurol = await _MenuRolRepository.Consultar();
           IQueryable<Menu>Menu =await _MenuRepository.Consultar();
 
             try
-            {
+            {   
                 IQueryable<Menu> resultado = (from u in usuario
                                               join mr in Menurol on u.IdRol equals mr.IdRol
                                               join m in Menu on mr.IdMenu equals m.IdMenu

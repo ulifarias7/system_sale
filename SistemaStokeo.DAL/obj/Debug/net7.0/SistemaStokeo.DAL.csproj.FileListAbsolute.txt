@@ -13,3 +13,4 @@ C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debu
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\bin\Debug\net7.0\SistemaStokeo.MODELS.pdb
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.csproj.AssemblyReference.cache
 C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaS.3224392B.Up2Date
+C:\Users\Usuario\OneDrive\Escritorio\Stokeo\APIstokeo\SistemaStokeo.DAL\obj\Debug\net7.0\SistemaStokeo.DAL.sourcelink.json

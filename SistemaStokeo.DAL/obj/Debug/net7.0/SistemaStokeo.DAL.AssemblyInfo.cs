@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a01d127c0360996e2f0ebe812ceab88634014ddd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

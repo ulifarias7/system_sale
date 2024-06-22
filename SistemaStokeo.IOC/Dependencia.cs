@@ -21,24 +21,26 @@ namespace SistemaStokeo.IOC
 
         public static void InyectarDependencias(this IServiceCollection services,IConfiguration configuration)
         {
-
+            //connection con la base de datos
             services.AddDbContext<DbsystemSContext>(option =>
             {
                 option.UseSqlServer(configuration.GetConnectionString("cadenaSQL"));
             });
 
-
+            //repositorios
             services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository,VentaRepository>();
 
+            //automapper
             services.AddAutoMapper(typeof(AutoMapperProfile));
 
+            //services
             services.AddScoped<IRolServices,RolServices>();
             services.AddScoped<ICategoriaServices,CategoriaServices>();
             services.AddScoped<IUsuarioServices,Usuarioservices>();
-            services.AddScoped<IProductoServices,ProductoServices >();
+            services.AddScoped<IProductoServices,ProductoServices>();
             services.AddScoped<IVentaservices,Ventaservices>();
-            services.AddScoped<IDashBoardservices,DashBoardServices >();
+            services.AddScoped<IDashBoardservices,DashBoardServices>();
             services.AddScoped<IMenuServices,MenuServices>();
 
 

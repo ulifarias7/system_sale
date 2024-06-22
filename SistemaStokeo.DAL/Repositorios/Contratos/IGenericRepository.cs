@@ -14,7 +14,6 @@ namespace SistemaStokeo.DAL.Repositorios.Contratos
         Task<T> Crear(T modelo);
         Task<bool> Editar(T modelo);
         Task<bool> Delete(T modelo);
-
         Task<IQueryable<T>> Consultar(Expression<Func<T, bool>> filtro = null);
 
     }
