@@ -20,6 +20,9 @@ namespace SistemaStokeo.API.Controllers
             _Usuarioservices = usuarioservices;
         }
 
+
+        //metodo de listar usuario
+
         [HttpGet]
         [Route("ListaUsuario")]
 
@@ -41,6 +44,8 @@ namespace SistemaStokeo.API.Controllers
 
             return Ok(Rsp);
         }
+
+        //metodo para poner las credenciales
 
         [HttpPost]
         [Route("IniciarSesion")]
@@ -64,58 +69,88 @@ namespace SistemaStokeo.API.Controllers
             return Ok(Rsp);
         }
 
+        //metodo de Guardar/crear usuario
 
         [HttpPost]
-        [Route("CrearUsuario")]
+        [Route("GuardarUsuario")]
 
-        public async Task<UsuarioDto> CrearUsuario(UsuarioDto modelo)
+        public async Task<IActionResult> GuardarUsuario([FromBody] UsuarioDto usuario)
         {
-
-            var NuevoUsuario = new Response<UsuarioDto>();
+            var Rsp = new Response<UsuarioDto>();
             try
             {
-                NuevoUsuario.status = true;
-                NuevoUsuario.Value = await _Usuarioservices.Crear(modelo);
+                Rsp.status = true;
+                Rsp.Value = await _Usuarioservices.Crear(usuario);
 
             }
             catch (Exception ex)
             {
-                NuevoUsuario.status = false;
-                NuevoUsuario.Msg = ex.Message;
+                Rsp.status = false;
+                Rsp.Msg = ex.Message;
 
             }
 
-            return modelo;
-
-
+            return Ok(Rsp);
         }
+
+        //metodo de editar Usuario
 
         [HttpPut]
-        [Route("EditarUsurio")]
+        [Route("EditarUsuario")]
+
         public async Task<IActionResult>EditarUsuario(UsuarioDto modelo)
         {
-            var Ueliminado = new Response<UsuarioDto>();
+
+            var editarusuario = new Response<bool>();
             try
             {
-                Ueliminado.status = true;
-                Ueliminado.Value = await _Usuarioservices.Editar(modelo);
+                editarusuario.status = true;
+                editarusuario.Value = await _Usuarioservices.Editar(modelo);
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                Ueliminado.status = false;
-                Ueliminado.Msg = ex.Message;
+                editarusuario.status = false;
+                editarusuario.Msg = ex.Message;
 
             }
-            return Ok(modelo); 
+
+            return Ok(editarusuario);
+
+
         }
 
+
+        //metodo de eliminar usuario
 
         [HttpDelete]
-        [Route("EliminarUsuario")]
-        public async Task<bool> EliminarUsuario(int id)
+        [Route("EliminarUsuario/{id:int}")]
+
+        public async Task<IActionResult> EliminarUsuario(int id)
         {
 
+            var eliminarUsuario = new Response<bool>();
+            try
+            {
+                eliminarUsuario.status = true;
+                eliminarUsuario.Value = await _Usuarioservices.Eliminar(id);
+
+            }
+            catch (Exception ex)
+            {
+                eliminarUsuario.status = false;
+                eliminarUsuario.Msg = ex.Message;
+
+            }
+
+            return Ok(eliminarUsuario);
+
+
         }
+
+
+
+
+
     }
 }

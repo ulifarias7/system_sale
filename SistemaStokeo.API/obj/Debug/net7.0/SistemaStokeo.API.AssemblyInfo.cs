@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a01d127c0360996e2f0ebe812ceab88634014ddd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c2ef69e8a04c29e343d5013e6eb1bbde46524e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Options;
 using SistemaStokeo.IOC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,19 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.InyectarDependencias(builder.Configuration);
 
+//Cors para la conection
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Nuevapolitica", app =>
+    {
+        app.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+}
+);
+
 
 var app = builder.Build();
 
@@ -23,6 +37,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("Nuevapolitica");
 
 app.UseHttpsRedirection();
 

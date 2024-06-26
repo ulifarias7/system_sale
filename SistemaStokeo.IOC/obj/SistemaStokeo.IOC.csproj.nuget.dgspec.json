@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj",
         "projectName": "SistemaStokeo.BLL",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,17 +33,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj",
         "projectName": "SistemaStokeo.DAL",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +117,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj",
         "projectName": "SistemaStokeo.IOC",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\SistemaStokeo.IOC.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,14 +192,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.BLL\\SistemaStokeo.BLL.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
               }
             }
           }
@@ -244,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj",
         "projectName": "SistemaStokeo.MODELS",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -325,14 +325,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj",
         "projectName": "SistemaStokeo.UTILITYS",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -354,11 +354,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj"
               }
             }
           }
@@ -403,14 +403,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj",
         "projectName": "SistemaStokeo.DTO",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\SistemaStokeo.DTO.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemStokeo.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -432,11 +432,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.DAL\\SistemaStokeo.DAL.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.MODELS\\SistemaStokeo.MODELS.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lDnryHrw5hxoLBflRBavmKZKzEcU6/sKTxedWl18bV2AXqeNmpNNM+Wi0aak+sebO1lbVUnyCqNOj9qtqlxSNQ==",
+  "dgSpecHash": "TYCFKSMjdBAhTdTfLrQ8oHm9irSfgcEW3D/En8N3eA++HSSA/xOVmCFiR4n/UlvoBvu3CCMD+vU9u8t/z1oFtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Stokeo\\APIstokeo\\SistemaStokeo.API\\SistemaStokeo.API.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.API\\SistemaStokeo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

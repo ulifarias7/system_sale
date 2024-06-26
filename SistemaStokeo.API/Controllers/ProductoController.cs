@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata;
-using SistemaStokeo.BLL.Servicios;
-using SistemaStokeo.API.Utilidad;
 using SistemaStokeo.BLL.Servicios.Contrato;
-using SistemaStokeo.MODELS;
+using SistemaStokeo.API.Utilidad;
 using SistemStokeo.DTO;
+using SistemaStokeo.BLL.Servicios;
 
 namespace SistemaStokeo.API.Controllers
 {
@@ -13,12 +11,16 @@ namespace SistemaStokeo.API.Controllers
     [ApiController]
     public class ProductoController : ControllerBase
     {
-        private readonly IProductoServices _productoservices;
 
-        public ProductoController(IProductoServices productoservices)
+        private readonly IProductoServices _productoservicio;
+
+        public ProductoController(IProductoServices productoservicio)
         {
-            _productoservices = productoservices;
+            _productoservicio = productoservicio;
         }
+
+
+        //metodo de listar Producto
 
         [HttpGet]
         [Route("ListaProducto")]
@@ -29,7 +31,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 Rsp.status = true;
-                Rsp.Value = await _productoservices.Lista();
+                Rsp.Value = await _productoservicio.Lista();
 
             }
             catch (Exception ex)
@@ -43,28 +45,81 @@ namespace SistemaStokeo.API.Controllers
         }
 
 
+        //metodo de Guardar/crear Producto
+
         [HttpPost]
-        [Route("Crearproducto")]
+        [Route("CrearProducto")]
 
-        public async Task<ProductoDto> CrearProducto(ProductoDto producto)
+        public async Task<IActionResult> CrearProducto([FromBody] ProductoDto producto)
         {
-
-            var Producto = new Response<ProductoDto>();
+            var Rsp = new Response<ProductoDto>();
             try
             {
-                Producto.status = true;
-                Producto.Value = await _productoservices.Crear(producto);
+                Rsp.status = true;
+                Rsp.Value = await _productoservicio.Crear(producto);
 
             }
             catch (Exception ex)
             {
-                Producto.status = false;
-                Producto.Msg = ex.Message;
+                Rsp.status = false;
+                Rsp.Msg = ex.Message;
 
             }
 
-            return producto;
-            
+            return Ok(Rsp);
+        }
+
+        //metodo de editar Producto
+
+        [HttpPut]
+        [Route("EditarProducto")]
+
+        public async Task<IActionResult> EditarProducto(ProductoDto Producto)
+        {
+
+            var editarProducto = new Response<bool>();
+            try
+            {
+                editarProducto.status = true;
+                editarProducto.Value = await _productoservicio.Editar(Producto);
+
+            }
+            catch (Exception ex)
+            {
+                editarProducto.status = false;
+                editarProducto.Msg = ex.Message;
+
+            }
+
+            return Ok(editarProducto);
+
+
+        }
+
+        //metodo de eliminar usuario
+
+        [HttpDelete]
+        [Route("EliminarProducto/{id:int}")]
+
+        public async Task<IActionResult> EliminarProducto(int id)
+        {
+
+            var eliminarUsuario = new Response<bool>();
+            try
+            {
+                eliminarUsuario.status = true;
+                eliminarUsuario.Value = await _productoservicio.Eliminar(id);
+
+            }
+            catch (Exception ex)
+            {
+                eliminarUsuario.status = false;
+                eliminarUsuario.Msg = ex.Message;
+
+            }
+
+            return Ok(eliminarUsuario);
+
 
         }
 
