@@ -9,9 +9,11 @@ namespace SistemStokeo.DTO
     public class LoginDtos
     {
 
-        public string Correo {  get; set; }
+        public string? Nombre {  get; set; }//ver
 
-        public string Clave { get; set; }
+        public string? Correo {  get; set; }
+
+        public string? Clave { get; set; }
 
 
     }

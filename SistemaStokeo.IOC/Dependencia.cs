@@ -2,17 +2,15 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SistemaStokeo.DAL.DBContext;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SistemaStokeo.DAL.Repositorios.Contratos;
 using SistemaStokeo.DAL.Repositorios;
 using SistemaStokeo.UTILITYS;
-using AutoMapper;
 using SistemaStokeo.BLL.Servicios.Contrato;
 using SistemaStokeo.BLL.Servicios;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 
 namespace SistemaStokeo.IOC
 {
@@ -26,6 +24,32 @@ namespace SistemaStokeo.IOC
             {
                 option.UseSqlServer(configuration.GetConnectionString("cadenaSQL"));
             });
+
+
+
+            //services de encriptacion
+            services.AddSingleton<Cryptoo>();
+
+            services.AddAuthentication(config => {
+                config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(config =>
+            {
+                config.RequireHttpsMetadata = false;
+                config.SaveToken = true;
+                config.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero,
+                    IssuerSigningKey = new SymmetricSecurityKey
+                    (Encoding.UTF8.GetBytes(configuration["Jwt:Key"]!))
+                };
+            });
+
+
 
             //repositorios
             services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));

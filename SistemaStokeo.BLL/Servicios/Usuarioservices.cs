@@ -9,6 +9,8 @@ using SistemaStokeo.DAL.Repositorios.Contratos;
 using SistemStokeo.DTO;
 using SistemaStokeo.MODELS;
 using Microsoft.EntityFrameworkCore;
+using SistemaStokeo.UTILITYS;
+
 
 namespace SistemaStokeo.BLL.Servicios
 {
@@ -16,11 +18,13 @@ namespace SistemaStokeo.BLL.Servicios
     {
         private readonly IGenericRepository<Usuario> _usuariorepositorio;
         private readonly IMapper _mapper;
+        private readonly Cryptoo _cryptoo;
 
-        public Usuarioservices(IGenericRepository<Usuario> usuariorepositorio, IMapper mapper)
+        public Usuarioservices(IGenericRepository<Usuario> usuariorepositorio, IMapper mapper, Cryptoo cryptoo)
         {
             _usuariorepositorio = usuariorepositorio;
             _mapper = mapper;
+            _cryptoo = cryptoo;
         }
 
         public async Task<List<UsuarioDto>> Lista()
@@ -33,7 +37,7 @@ namespace SistemaStokeo.BLL.Servicios
                 var listadeUsuario = queryUsuario.Include(rol=>rol.IdRolNavigation).ToList();
 
 
-                return _mapper.Map<List<UsuarioDto>>(listadeUsuario);
+                return _mapper.Map<List<UsuarioDto>>(listadeUsuario.ToList());
             }
             catch
             {
@@ -44,25 +48,25 @@ namespace SistemaStokeo.BLL.Servicios
 
          
 
-        public async Task<SesionDto> ValidarCredenciales(string correo, string clave)
+        public async Task<SesionDto> ValidarCredenciales(string correo, string claveEncriptada)
         {
             try
             {
+                // Consultar el usuario por correo y clave encriptada
                 var queryUsuario = await _usuariorepositorio.Consultar(u =>
-                u.Correo == correo &&
-                u.Clave == clave
+                    u.Correo == correo &&
+                    u.Clave == claveEncriptada
                 );
 
-                if (queryUsuario.FirstOrDefault() == null)
-                    throw new TaskCanceledException("el usuario no existe");
+                var usuario = queryUsuario.Include(rol => rol.IdRolNavigation).FirstOrDefault();
+                if (usuario == null)
+                    throw new Exception("El usuario no existe o la clave es incorrecta");
 
-
-                Usuario devorverUsuario = queryUsuario.Include(rol=> rol.IdRolNavigation).First();
-                return _mapper.Map<SesionDto>(devorverUsuario);
+                return _mapper.Map<SesionDto>(usuario);
             }
-            catch
+            catch (Exception ex)
             {
-                throw;//devuelve error
+                throw new Exception($"Error al validar las credenciales: {ex.Message}");
             }
         }
 

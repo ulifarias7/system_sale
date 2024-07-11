@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace SistemaStokeo.MODELS;
 
 public partial class Usuario
-{
+{   
     public int IdUsuario { get; set; }
 
     public string? NombreCompleto { get; set; }
@@ -17,7 +17,7 @@ public partial class Usuario
 
     public bool? EsActivo { get; set; }
 
-    public DateTime? FechaRegistro { get; set; }//esta no debe ser mostrada al usuario (ANGULAR)
+    public DateTime? FechaRegistro { get; set; }//esta no debe ser mostrada al usuario a
 
-    public virtual Rol? IdRolNavigation { get; set; }//esta no debe ser mostrada al usuario (ANGULAR)
+    public virtual Rol? IdRolNavigation { get; set; }//esta no debe ser mostrada al usuario 
 }

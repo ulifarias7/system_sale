@@ -52,7 +52,8 @@ namespace SistemaStokeo.UTILITYS
                 opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
                 );
 
-
+          
+       
             #endregion Usuario
 
             #region Categoria

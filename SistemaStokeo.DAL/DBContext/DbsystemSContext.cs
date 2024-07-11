@@ -34,6 +34,9 @@ public partial class DbsystemSContext : DbContext
 
     public virtual DbSet<Venta> Venta { get; set; }
 
+
+
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

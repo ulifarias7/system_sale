@@ -41,17 +41,18 @@ namespace SistemaStokeo.DAL.Repositorios
         {
             try
             {
-                _dbContext.Set<T>().Add(modelo);
+                await _dbContext.Set<T>().AddAsync(modelo);
                 await _dbContext.SaveChangesAsync();
                 return modelo;
             }
-            catch
+            catch(Exception ex)
             {
+                Console.WriteLine($"Error al guardar {typeof(T).Name}: {ex.Message}");
                 throw;
             }
         }
 
-
+        
         public async Task<bool> Editar(T modelo)
         {
             try
@@ -84,7 +85,7 @@ namespace SistemaStokeo.DAL.Repositorios
 
         
 
-        public async Task<IQueryable<T>> Consultar(Expression<Func<T, bool>> filtro = null) // vamos a establecer la consultar para el que lo llame sea quien lo ejecute 
+        public async Task<IQueryable<T>> Consultar(Expression<Func<T, bool>> filtro = null) // vamos a establecer  consultar para el que lo llame sea quien lo ejecute 
 
         {
             try

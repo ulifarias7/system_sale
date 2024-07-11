@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c2ef69e8a04c29e343d5013e6eb1bbde46524e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada70baffcb771fdd233d1eb4b556c510d32c0fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,10 +16,11 @@ namespace SistemStokeo.DTO
 
         public int? IdRol { get; set; }
 
-        public string? RolDescripcion { get; set; }
-
         public string? Clave { get; set; }
 
-        public int? EsActivo { get; set; } //no se usa como en el modelo el bool por que a la vista del usuario se trbaja con cero y uno por eso el entero 0 / 1 
+        public int? EsActivo { get; set; } //no se usa como en el modelo el bool por que a la vista del usuario se trbaja con cero y uno por eso el entero 0 / 1
+
+        public string? RolDescripcion { get; set; }
+ 
     }
 }

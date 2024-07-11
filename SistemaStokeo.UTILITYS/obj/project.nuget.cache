@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iEP2VKG83QsVbcL7/vpnGIzn/7c7iGFEmWj8FuFq6wK400ux6mDtYhi+2CtLbgouQIESHalRB3Br11gBbnmpJg==",
+  "dgSpecHash": "s/Bln95nOQcqLoh7id/DlTFvBQX8gBavODK3dmd54VSj6n26vcVSS/9xCtawcVkMKQvLWYxL+0/IkCwDFpwjFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Systemstokeo\\Stokeo\\APIstokeo\\SistemaStokeo.UTILITYS\\SistemaStokeo.UTILITYS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
