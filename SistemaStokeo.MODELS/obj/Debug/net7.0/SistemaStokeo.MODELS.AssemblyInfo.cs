@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.MODELS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada70baffcb771fdd233d1eb4b556c510d32c0fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b417d403d4085a9b2908f6c622ca248a5eac847c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.MODELS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.MODELS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
