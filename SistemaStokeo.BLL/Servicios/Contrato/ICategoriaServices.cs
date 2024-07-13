@@ -10,5 +10,8 @@ namespace SistemaStokeo.BLL.Servicios.Contrato
     public interface ICategoriaServices
     {
         Task<List<CategoriaDto>> List();
+
+        Task<CategoriaDto> Crear(CategoriaDto categoria);
+
     }
 }

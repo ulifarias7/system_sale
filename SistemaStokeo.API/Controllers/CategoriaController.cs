@@ -39,5 +39,29 @@ namespace SistemaStokeo.API.Controllers
             return Ok(Rsp);
         }
 
+
+
+
+        [HttpPost]
+        [Route("CrearCategoria")]
+
+        public async Task<IActionResult> CrearProducto([FromBody] CategoriaDto crearcategoria)
+        {
+            var Rsp = new Response<CategoriaDto>();
+            try
+            {
+                Rsp.status = true;
+                Rsp.Value = await _categoriaServices.Crear(crearcategoria);
+
+            }
+            catch (Exception ex)
+            {
+                Rsp.status = false;
+                Rsp.Msg = ex.Message;
+
+            }
+
+            return Ok(Rsp);
+        }
     }
 }

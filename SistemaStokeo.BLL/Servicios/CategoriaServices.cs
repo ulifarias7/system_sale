@@ -23,6 +23,22 @@ namespace SistemaStokeo.BLL.Servicios
             _mapper = mapper;
         }
 
+        public async  Task<CategoriaDto> Crear(CategoriaDto categoria)
+        {
+            try
+            {
+                var categoriacreada = await _Categoriarepositorio.Crear(_mapper.Map<Categoria>(categoria));
+                if (categoriacreada.IdCategoria == 0)
+                    throw new TaskCanceledException(" no pudo ser creado");
+             
+                return _mapper.Map<CategoriaDto>(categoriacreada);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
         public async Task<List<CategoriaDto>> List()
         {
             try
