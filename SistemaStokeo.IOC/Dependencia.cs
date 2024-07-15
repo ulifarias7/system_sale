@@ -10,6 +10,8 @@ using SistemaStokeo.BLL.Servicios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Options;
 
 
 namespace SistemaStokeo.IOC
@@ -46,6 +48,21 @@ namespace SistemaStokeo.IOC
                     ClockSkew = TimeSpan.Zero,
                     IssuerSigningKey = new SymmetricSecurityKey
                     (Encoding.UTF8.GetBytes(configuration["Jwt:Key"]!))
+                };
+          config.Events = new JwtBearerEvents
+               {
+                    OnMessageReceived = context =>
+                    {
+                        var token = context.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+                        var crypto = context.HttpContext.RequestServices.GetRequiredService<Cryptoo>();
+                        if (crypto.EsTokenInvalido(token))
+                        {
+                            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                            return Task.CompletedTask;
+                        }
+
+                        return Task.CompletedTask;
+                    }
                 };
             });
 

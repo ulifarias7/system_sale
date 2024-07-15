@@ -16,6 +16,7 @@ namespace SistemaStokeo.UTILITYS
     public class Cryptoo
     {
         private readonly IConfiguration _configuration;
+        private static readonly List<string> InvalidTokens = new List<string>();
 
         public Cryptoo(IConfiguration configuration)
         {
@@ -65,6 +66,21 @@ namespace SistemaStokeo.UTILITYS
 
             return new JwtSecurityTokenHandler().WriteToken(jwtConfig);
         }
+
+
+        public void InvalidarToken(string token)
+        {
+            InvalidTokens.Add(token);
+        }
+
+        public bool EsTokenInvalido(string token)
+        {
+            return InvalidTokens.Contains(token);
+        }
+
+
+
+
 
     }
 
