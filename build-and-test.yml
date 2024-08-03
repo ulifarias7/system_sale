@@ -1,0 +1,9 @@
+name: Prueba #nombre del flujo de trabajo
+
+on: [push,pull_request] #eventos que activaran el flujo de trabajo
+
+jobs:
+  mi_trabajo:
+   runs-on: Windows-latest #especifica el sistema Operativo del entorno de ejecucion
+  steps:
+  - run: echo "!Hola,mundo¡"  #comandoquese ejecutara 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaStokeo.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6739a366b74b39bb846ee597180533aa68ce7a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2aa8a8efe55347c444324bf80ace67e1361b154")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaStokeo.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaStokeo.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
