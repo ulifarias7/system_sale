@@ -1,5 +1,7 @@
-.vs
-project.lock.json
-.vscode
+# Exclude bin and obj directories
+bin/
+obj/
+
+# Exclude Visual Studio files
 .vs/
-.github
+.vscode/
