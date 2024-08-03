@@ -26,7 +26,7 @@ jobs:
       run: docker build -t myappi:latest .
 
     - name: Update TAG
-      run: docker tag  myappi:latest ${{ secrets.DOCKER_USERNAME}}/systemstockeo:latest
+      run: docker tag  myappi:latest "${{ secrets.DOCKER_USERNAME}}/systemstockeo:latest"
 
     - name: Push Docker image to DockerHub
       run: docker push ${{ secrets.DOCKER_USERNAME}}/systemstockeo:latest
