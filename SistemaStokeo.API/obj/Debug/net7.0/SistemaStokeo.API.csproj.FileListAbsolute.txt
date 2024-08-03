@@ -169,3 +169,6 @@ C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo
 C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\obj\Debug\net7.0\SistemaStokeo.API.genruntimeconfig.cache
 C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\obj\Debug\net7.0\ref\SistemaStokeo.API.dll
 C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\MailKit.dll
+C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\MimeKit.dll
+C:\Users\Usuario\OneDrive\Escritorio\Systemstokeo\Stokeo\APIstokeo\SistemaStokeo.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll

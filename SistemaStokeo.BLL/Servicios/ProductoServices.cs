@@ -33,7 +33,7 @@ namespace SistemaStokeo.BLL.Servicios
             }
             catch
             {
-                throw;
+                throw;  
             }
         }
 

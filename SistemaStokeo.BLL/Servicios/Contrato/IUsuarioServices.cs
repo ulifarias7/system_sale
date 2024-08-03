@@ -15,5 +15,10 @@ namespace SistemaStokeo.BLL.Servicios.Contrato
         Task<UsuarioDto> Crear(UsuarioDto modelo);
         Task<bool>Editar(UsuarioDto modelo);
         Task<bool> Eliminar(int id);
+
+        
+
+
+
     }
 }

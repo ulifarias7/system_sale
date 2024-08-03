@@ -20,4 +20,6 @@ public partial class Usuario
     public DateTime? FechaRegistro { get; set; }//esta no debe ser mostrada al usuario a
 
     public virtual Rol? IdRolNavigation { get; set; }//esta no debe ser mostrada al usuario 
+
+
 }

@@ -4,6 +4,7 @@ using SistemaStokeo.BLL.Servicios.Contrato;
 using SistemaStokeo.API.Utilidad;
 using SistemStokeo.DTO;
 using SistemaStokeo.BLL.Servicios;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaStokeo.API.Controllers
 {

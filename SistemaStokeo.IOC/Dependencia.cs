@@ -25,8 +25,7 @@ namespace SistemaStokeo.IOC
                 option.UseSqlServer(configuration.GetConnectionString("cadenaSQL"));
             });
 
-
-
+           
             //services de encriptacion
             services.AddSingleton<Cryptoo>();
 
@@ -54,6 +53,7 @@ namespace SistemaStokeo.IOC
             //repositorios
             services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository,VentaRepository>();
+         
 
             //automapper
             services.AddAutoMapper(typeof(AutoMapperProfile));

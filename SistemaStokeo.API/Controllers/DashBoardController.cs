@@ -15,7 +15,6 @@ using SistemaStokeo.BLL.Servicios;
 namespace SistemaStokeo.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize] // a esta api solo van a poder entrar usuario autorizados 
     [ApiController]
     public class DashBoardController : ControllerBase
     {

@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace SistemaStokeo.API.Controllers
 {
     [Route("api/[controller]")]
-    //[Authorize]
+    [Authorize]
     [ApiController]
     public class ProductoController : ControllerBase
     {
@@ -90,7 +90,7 @@ namespace SistemaStokeo.API.Controllers
             {
                 editarProducto.status = false;
                 editarProducto.Msg = ex.Message;
-
+                    
             }
 
             return Ok(editarProducto);

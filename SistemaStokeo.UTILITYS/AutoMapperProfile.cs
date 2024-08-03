@@ -25,31 +25,20 @@ namespace SistemaStokeo.UTILITYS
 
             #region Usuario
             CreateMap<Usuario, UsuarioDto>()
-                .ForMember(destino =>
-                destino.RolDescripcion,
-                opt => opt.MapFrom(origen =>
-                origen.IdRolNavigation.Nombre)
+                .ForMember(destino =>destino.RolDescripcion,opt => opt.MapFrom(origen => origen.IdRolNavigation.Nombre)
                 )
                 .ForMember(destino =>
-                destino.EsActivo,
-                opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
+                destino.EsActivo,opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
                 );
 
             CreateMap<Usuario, SesionDto>()
-               .ForMember(destino =>
-               destino.RolDescripcion,
-               opt => opt.MapFrom(origen =>
-               origen.IdRolNavigation.Nombre)
+                .ForMember(destino =>destino.RolDescripcion,opt => opt.MapFrom(origen =>origen.IdRolNavigation.Nombre)
                );
 
             CreateMap<UsuarioDto, Usuario>()
-               .ForMember(destino =>
-               destino.IdRolNavigation,
-               opt => opt.Ignore()
-               )
-                .ForMember(destino =>
-                destino.EsActivo,
-                opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
+                .ForMember(destino =>destino.IdRolNavigation,opt => opt.Ignore()
+                 )
+                .ForMember(destino =>destino.EsActivo,opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
                 );
 
           
