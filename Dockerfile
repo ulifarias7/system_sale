@@ -17,8 +17,8 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "SistemaStokeo.API.dll"]    
 
-#ulises sos el mas crack de todo el mundo 
 
+#arqui
 #app
  #src
  #build
