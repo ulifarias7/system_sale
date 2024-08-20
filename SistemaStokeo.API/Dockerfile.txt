@@ -1,0 +1,30 @@
+# Usar una imagen base de .NET SDK
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+
+# Establecer el directorio de trabajo
+WORKDIR /app
+
+# Copiar los archivos .csproj y restaurar las dependencias
+COPY SistemaStokeo.API/SistemaStokeo.API.csproj ./SistemaStokeo.API/
+COPY SistemaStokeo.BLL/SistemaStokeo.BLL.csproj ./SistemaStokeo.BLL/
+COPY SistemaStokeo.DAL/SistemaStokeo.DAL.csproj ./SistemaStokeo.DAL/
+COPY SistemaStokeo.DTO/SistemaStokeo.DTO.csproj ./SistemaStokeo.DTO/
+COPY SistemaStokeo.IOC/SistemaStokeo.IOC.csproj ./SistemaStokeo.IOC/
+COPY SistemaStokeo.MODELS/SistemaStokeo.MODELS.csproj ./SistemaStokeo.MODELS/
+COPY SistemaStokeo.UTILITYS/SistemaStokeo.UTILITYS.csproj ./SistemaStokeo.UTILITYS/
+RUN dotnet restore SistemaStokeo.API/SistemaStokeo.API.csproj
+
+# Copiar el resto de los archivos y compilar la aplicación
+COPY . .
+RUN dotnet publish SistemaStokeo.API/SistemaStokeo.API.csproj -c Release -o out
+
+# Usar una imagen runtime de .NET
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out .
+
+# Exponer el puerto 80 para la aplicación
+EXPOSE 80
+
+# Comando para ejecutar la aplicación
+ENTRYPOINT ["dotnet", "SistemaStokeo.API.dll"]
