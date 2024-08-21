@@ -4,6 +4,7 @@ using SistemaStokeo.BLL.Servicios.Contrato;
 using SistemaStokeo.API.Utilidad;
 using SistemStokeo.DTO;
 using SistemaStokeo.BLL.Servicios;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaStokeo.API.Controllers
 {
@@ -20,7 +21,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de Guardar/crear venta
-
+        [Authorize(Roles = "Administrador,Empleado,supervisor")]
         [HttpPost]
         [Route("registrarventa")]
 
@@ -47,7 +48,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de listar Venta
-
+        [Authorize(Roles = "Administrador,Empleado,supervisor")]
         [HttpGet]
         [Route("ListaVenta")]
 
@@ -75,7 +76,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de reportedeventa
-
+        [Authorize(Roles = "Administrador,Empleado,supervisor")]
         [HttpGet]
         [Route("ReporteVenta")]
 

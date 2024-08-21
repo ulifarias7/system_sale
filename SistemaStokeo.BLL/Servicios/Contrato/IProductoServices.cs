@@ -9,9 +9,10 @@ namespace SistemaStokeo.BLL.Servicios.Contrato
 {
     public interface IProductoServices
     {
-        Task<List<ProductoDto>> Lista();
-        Task<ProductoDto> Crear(ProductoDto modelo);
-        Task<bool> Editar(ProductoDto modelo);
-        Task<bool> Eliminar(int id);
+        Task<List<ProductoDto>> Listaproducto();
+        Task<ProductoDto> Crearproducto(ProductoDto modelo);
+        Task<bool> Editarproducto(ProductoDto modelo);
+        Task<bool> Eliminarproducto(int id);
+       
     }
 }

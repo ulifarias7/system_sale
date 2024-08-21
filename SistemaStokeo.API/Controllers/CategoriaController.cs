@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SistemaStokeo.BLL.Servicios.Contrato;
 using SistemaStokeo.API.Utilidad;
 using SistemStokeo.DTO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaStokeo.API.Controllers
 {
@@ -17,6 +18,8 @@ namespace SistemaStokeo.API.Controllers
             _categoriaServices = categoriaServices;
         }
 
+
+        [Authorize(Roles ="Administrador,Empleado,supervisor")]
         [HttpGet]
         [Route("ListaCategoria")]
 
@@ -26,7 +29,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 Rsp.status = true;
-                Rsp.Value = await _categoriaServices.List();
+                Rsp.Value = await _categoriaServices.ListCategoria();
 
             }
             catch (Exception ex)
@@ -41,17 +44,17 @@ namespace SistemaStokeo.API.Controllers
 
 
 
-
+        [Authorize(Roles = "Administrador")]
         [HttpPost]
         [Route("CrearCategoria")]
 
-        public async Task<IActionResult> CrearProducto([FromBody] CategoriaDto crearcategoria)
+        public async Task<IActionResult> CrearCategoria([FromBody] CategoriaDto crearcategoria)
         {
             var Rsp = new Response<CategoriaDto>();
             try
             {
                 Rsp.status = true;
-                Rsp.Value = await _categoriaServices.Crear(crearcategoria);
+                Rsp.Value = await _categoriaServices.CrearCategoria(crearcategoria);
 
             }
             catch (Exception ex)

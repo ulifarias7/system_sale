@@ -23,7 +23,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de listar Producto
-
+        [Authorize(Roles = "Administrador,Empleado,supervisor,cliente")]
         [HttpGet]
         [Route("ListaProducto")]
 
@@ -33,7 +33,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 Rsp.status = true;
-                Rsp.Value = await _productoservicio.Lista();
+                Rsp.Value = await _productoservicio.Listaproducto();
 
             }
             catch (Exception ex)
@@ -48,7 +48,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de Guardar/crear Producto
-
+        [Authorize(Roles = "Administrador,Empleado")]
         [HttpPost]
         [Route("CrearProducto")]
 
@@ -58,7 +58,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 Rsp.status = true;
-                Rsp.Value = await _productoservicio.Crear(producto);
+                Rsp.Value = await _productoservicio.Crearproducto(producto);
 
             }
             catch (Exception ex)
@@ -72,7 +72,7 @@ namespace SistemaStokeo.API.Controllers
         }
 
         //metodo de editar Producto
-
+        [Authorize(Roles = "Administrador,Empleado")]
         [HttpPut]
         [Route("EditarProducto")]
 
@@ -83,7 +83,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 editarProducto.status = true;
-                editarProducto.Value = await _productoservicio.Editar(Producto);
+                editarProducto.Value = await _productoservicio.Editarproducto(Producto);
 
             }
             catch (Exception ex)
@@ -99,7 +99,7 @@ namespace SistemaStokeo.API.Controllers
         }
 
         //metodo de eliminar usuario
-
+        [Authorize(Roles = "Administrador")]
         [HttpDelete]
         [Route("EliminarProducto/{id:int}")]
 
@@ -110,7 +110,7 @@ namespace SistemaStokeo.API.Controllers
             try
             {
                 eliminarUsuario.status = true;
-                eliminarUsuario.Value = await _productoservicio.Eliminar(id);
+                eliminarUsuario.Value = await _productoservicio.Eliminarproducto(id);
 
             }
             catch (Exception ex)
@@ -124,12 +124,6 @@ namespace SistemaStokeo.API.Controllers
 
 
         }
-
-
-
-
-
-
-
+       
     }
 }

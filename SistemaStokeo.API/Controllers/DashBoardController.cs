@@ -15,7 +15,7 @@ using SistemaStokeo.BLL.Servicios;
 namespace SistemaStokeo.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize] // a esta api solo van a poder entrar usuario autorizados 
+    //[Authorize]  a esta api solo van a poder entrar usuario autorizados 
     [ApiController]
     public class DashBoardController : ControllerBase
     {
@@ -30,7 +30,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de listar (resumen)
-
+        [Authorize(Roles = "Administrador,Empleado,supervisor")]
         [HttpGet]
         [Route("Resumen")]
 

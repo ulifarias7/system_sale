@@ -19,7 +19,6 @@ namespace SistemaStokeo.API.Controllers
         }
 
 
-        //metodo de listar Menu
 
         [HttpGet]
         [Route("ListaMenu")]

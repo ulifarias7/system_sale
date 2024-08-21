@@ -23,7 +23,8 @@ namespace SistemaStokeo.BLL.Servicios
             _productoRepository = productoRepository;
             _mapper = mapper;
         }
-        public async Task<List<ProductoDto>> Lista()
+
+        public async Task<List<ProductoDto>> Listaproducto()
         {
             try
             {
@@ -37,7 +38,7 @@ namespace SistemaStokeo.BLL.Servicios
             }
         }
 
-        public async Task<ProductoDto> Crear(ProductoDto modelo)
+        public async Task<ProductoDto> Crearproducto(ProductoDto modelo)
         {
 
             try
@@ -56,7 +57,7 @@ namespace SistemaStokeo.BLL.Servicios
         }
 
 
-        public async Task<bool> Editar(ProductoDto modelo)
+        public async Task<bool> Editarproducto(ProductoDto modelo)
         {
 
             try
@@ -88,7 +89,7 @@ namespace SistemaStokeo.BLL.Servicios
         }
 
 
-        public async Task<bool> Eliminar(int id)
+        public async Task<bool> Eliminarproducto(int id)
         {
             try
             {
@@ -109,6 +110,5 @@ namespace SistemaStokeo.BLL.Servicios
             }
         }
 
-       
     }
 }

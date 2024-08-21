@@ -23,7 +23,7 @@ namespace SistemaStokeo.BLL.Servicios
             _mapper = mapper;
         }
 
-        public async  Task<CategoriaDto> Crear(CategoriaDto categoria)
+        public async  Task<CategoriaDto> CrearCategoria(CategoriaDto categoria)
         {
             try
             {
@@ -39,7 +39,7 @@ namespace SistemaStokeo.BLL.Servicios
             }
         }
 
-        public async Task<List<CategoriaDto>> List()
+        public async Task<List<CategoriaDto>> ListCategoria()
         {
             try
             {

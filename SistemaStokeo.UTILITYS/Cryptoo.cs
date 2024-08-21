@@ -49,7 +49,8 @@ namespace SistemaStokeo.UTILITYS
             var UserClaims = new[]
             {
               new Claim(ClaimTypes.NameIdentifier,modelo.IdUsuario.ToString()) ,
-              new Claim(ClaimTypes.Email,modelo.Correo! )
+              new Claim(ClaimTypes.Email,modelo.Correo! ),
+              new Claim(ClaimTypes.Role,modelo.RolDescripcion)
              };
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:key"]!));// convertimos a bytes el token
@@ -59,7 +60,7 @@ namespace SistemaStokeo.UTILITYS
             //crear detalle del token
             var jwtConfig = new JwtSecurityToken(
                 claims: UserClaims,
-                expires: DateTime.UtcNow.AddMinutes(10),
+                expires: DateTime.UtcNow.AddMinutes(60),
                 signingCredentials: credentials
                 );
 

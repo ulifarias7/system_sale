@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SistemaStokeo.BLL.Servicios.Contrato;
 using SistemaStokeo.API.Utilidad;
 using SistemStokeo.DTO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaStokeo.API.Controllers
 {
@@ -18,9 +19,10 @@ namespace SistemaStokeo.API.Controllers
             _rolServicio = rolServicio;
         }
 
-
+        [Authorize(Roles = "Administrador")]
         [HttpGet]
         [Route("ListaRoles")]
+
 
         public async Task<IActionResult> ListaRoles()
         {

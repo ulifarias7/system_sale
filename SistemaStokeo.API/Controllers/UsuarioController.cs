@@ -17,7 +17,7 @@ using SistemaStokeo.UTILITYS;
 namespace SistemaStokeo.API.Controllers
 {
     [Route("api/[controller]")]
-    [AllowAnonymous]//estamos informando que esta api de acceso , vamos a poder acceder sin que el usuario se encuntre autorizado (ya que solo vamos a ingresar session y registrarnos)
+    //[AllowAnonymous]estamos informando que esta api de acceso , vamos a poder acceder sin que el usuario se encuntre autorizado (ya que solo vamos a ingresar session y registrarnos)
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -34,7 +34,7 @@ namespace SistemaStokeo.API.Controllers
         }
 
         //metodo de Guardar/crear usuario
-
+        [AllowAnonymous]
         [HttpPost]
         [Route("Registrarse")]
 
@@ -61,7 +61,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo para poner las credenciales
-
+        [AllowAnonymous]
         [HttpPost]
         [Route("login")] 
 
@@ -98,7 +98,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de listar usuario
-
+        [Authorize(Roles = "administrador")]
         [HttpGet]
         [Route("ListaUsuario")]
 
@@ -122,11 +122,8 @@ namespace SistemaStokeo.API.Controllers
         }
 
 
-
-    
-
         //metodo de editar Usuario
-
+        [Authorize(Roles = "Administrador")]
         [HttpPut]
         [Route("EditarUsuario")]
 
@@ -154,7 +151,7 @@ namespace SistemaStokeo.API.Controllers
 
 
         //metodo de eliminar usuario
-
+        [Authorize(Roles = "Administrador")]
         [HttpDelete]
         [Route("EliminarUsuario/{id:int}")]
 
@@ -179,10 +176,6 @@ namespace SistemaStokeo.API.Controllers
 
 
         }
-
-
-
-
 
     }
 }
